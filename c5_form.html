@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Town Hall Registration</title>
+  <link rel="stylesheet" href="c5_main.css">
+</head>
+<body>
+  <header class="masthead">
+    <h1>Register for Town Hall</h1>
+  </header>
+
+
+  <main class="content">
+    <form class="registration">
+      <label>Full Name: <input type="text" name="name" required></label>
+      <label>Email: <input type="email" name="email" required></label>
+      <label>Phone: <input type="tel" name="phone"></label>
+      <label>Ticket Type:
+        <select name="ticket">
+          <option>Season Package</option>
+          <option>Patron Package</option>
+          <option>Single Speaker</option>
+        </select>
+      </label>
+      <label>Comments:
+        <textarea name="comments" rows="4"></textarea>
+      </label>
+      <div class="form-buttons">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </div>
+    </form>
+  </main>
+</body>
+</html>
